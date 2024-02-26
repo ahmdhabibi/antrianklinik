@@ -1,0 +1,58 @@
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #e9ecef;
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Shadow yang halus */
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.brand-text-green {
+    color: #4CAF50;
+    /* Warna hijau jaya */
+}
+
+.brand-text-yellow {
+    color: #FFC107;
+    /* Warna kuning */
+}
+
+.navbar-toggler .toggle-lines {
+    background-color: #333;
+    /* Warna garis toggle */
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+}
+
+@media (max-width: 991.98px) {
+
+    /* Sembunyikan menu utama ketika lebar layar kurang dari 992px */
+    .navbar-nav {
+        display: none;
+    }
+
+    /* Tampilkan tombol toggle ketika lebar layar kurang dari 992px */
+    .navbar-toggler {
+        display: block;
+    }
+
+    /* Tampilkan menu utama saat tombol toggle diklik */
+    .navbar-collapse.show .navbar-nav {
+        display: block;
+    }
+}
+
+.btn-gradient {
+    background-image: linear-gradient(to bottom, #ff5733, #ff2817);
+    color: white;
+}
+
+.btn-gradient:hover {
+    background-image: linear-gradient(to bottom, #ff2817, #ff5733);
+}
