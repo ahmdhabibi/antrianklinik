@@ -1,3 +1,26 @@
+# Aplikasi Antrian Klinik Berbasis website
+
+fitur yang tersedia dalam aplikasi ini antara lain:
+1. Tampilan Home (halaman landing page yang berisikan informasi sederhana mengenai klinik)
+2. Login/ Registrasi Akun
+
+-- Admin --
+1. kelola kategori pelayanan
+2. kelola dokter
+3. kelola jadwal dokter
+4. kelola pasien
+5. kelola antrian
+6. monitoring antrian
+7. laporan antrian
+
+-- Pasien --
+1. melihat daftar pelayanan
+2. daftar antrian
+3. cetak antrian
+
+untuk db, silahkan hubungi email ini: ahabibi207@gmail.com
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
